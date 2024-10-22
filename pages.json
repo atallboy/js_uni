@@ -1,0 +1,504 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": ""
+				// "navigationStyle": "custom"
+			}
+		} 
+		,{
+		    "path" : "pages/balance/recharge",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "充值",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+				    "path" : "pages/order/submit",
+				    "style" :                                                                                    
+				    { 
+				        "navigationBarTitleText": "订单支付",
+				        "enablePullDownRefresh": false
+				    }
+				    
+				}
+				,{
+		    "path" : "pages/master/qrcode",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "二维码",
+		        "enablePullDownRefresh": false
+		    }		    
+		},
+		{
+		    "path" : "pages/master/console",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "管理中心",
+				"navigationStyle": "custom",
+		        "enablePullDownRefresh": false
+		    }		    
+		},
+		{
+		    "path" : "pages/settle/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "订单结算",
+		        "enablePullDownRefresh": false
+		    }		    
+		},
+
+{
+				    "path" : "pages/master/edit",
+				    "style" :                                                                                    
+				    {
+				        "navigationBarTitleText": "资料编辑",
+				        "enablePullDownRefresh": false
+				    }
+				    
+				},{
+		    "path" : "pages/master/certificate",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "资格证书",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/address/edit",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/eva/submit",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "评价",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+			{
+		    "path" : "pages/distribute/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "邀请有礼",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/agent/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "代理中心",
+				"navigationStyle": "custom", 
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+{
+		    "path" : "pages/balance/withdrawal",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "提现",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/balance/record",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "余额明细",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+{
+		    "path" : "pages/coupon/my",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的优惠券",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,
+		{
+		    "path" : "pages/coupon/exchange",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "兑换码",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+
+		{ 
+            "path" : "pages/master/list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "理疗师",
+                "enablePullDownRefresh": false
+				// "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+				// "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单列表",
+                "enablePullDownRefresh": false
+				// "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/item/collect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的收藏",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/item/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "服务介绍",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/address/list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/balance/withdrawal_record",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "提现记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/suggest/submit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "意见反馈",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/suggest/record",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "投诉管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/master/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "技师招募",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/master/collect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的收藏",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/master/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }        
+        ,{
+            "path" : "pages/agent/edit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/master/eva",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "评价列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/agent/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/master/daren",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "达人招募",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/master/zhubo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "主播招募",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/article/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/service/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mch/list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "附近商户",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mch/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商家详情",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+        {
+        	"path" : "pages/suggest/test",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/suggest/test1",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/order/refund",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "退款申请"
+        	}
+        },
+        {
+        	"path" : "pages/distribute/invite_record",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "邀请记录"
+        	}
+        },
+        {
+        	"path" : "pages/distribute/apply",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "分销商申请"
+        	}
+        },
+        {
+        	"path" : "pages/distribute/console",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "分销中心"
+        	}
+        },
+        {
+        	"path" : "pages/distribute/order",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "分销订单"
+        	}
+        },
+        {
+        	"path" : "pages/message/index",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "系统消息"
+        	}
+        },
+        {
+        	"path" : "pages/master/service",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "服务内容"
+        	}
+        },
+        {
+        	"path" : "pages/master/list_by_item",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "选择技师"
+        	}
+        },
+        {
+        	"path" : "pages/index/test",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : ""
+        	}
+        },
+        {
+        	"path" : "pages/order/startService",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : ""
+        	}
+        },
+        {
+        	"path" : "pages/distribute/hotel_qrcode",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : ""
+        	}
+        },
+        {
+        	"path" : "pages/distribute/bind_qrcode",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : ""
+        	}
+        },
+        {
+        	"path" : "pages/city/city",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : ""
+        	}
+        },
+        {
+        	"path" : "pages/city/city",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "选择区域"
+        	}
+        }
+    ],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#05C46D", 
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/nav-index.png", 
+				"selectedIconPath": "static/images/nav-inex-selected.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/master/list",
+				"iconPath": "static/images/nav-jishi.png", 
+				"selectedIconPath": "static/images/nav-jishi-selected.png",
+				"text": "茶艺师"
+			},							
+			{
+				"pagePath": "pages/order/list",
+				"iconPath": "static/images/nav-order.png", 
+				"selectedIconPath": "static/images/nav-order-selected.png",
+				"text": "订单"
+			},			
+			{
+				"pagePath": "pages/mine/index",
+				"iconPath": "static/images/nav-mine.png", 
+				"selectedIconPath": "static/images/nav-mine-selected.png",
+				"text": "我的" 
+			}						
+		]
+	},		 
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		,"navigationStyle": "custom"
+	}
+}

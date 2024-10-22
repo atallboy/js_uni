@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "yj-access-privacy": "/components/yj-access-privacy/yj-access-privacy"
+  }
+}

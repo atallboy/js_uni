@@ -1,0 +1,1 @@
+<view><view style="padding:10px;"><mp-html vue-id="58187223-1" content="{{content}}" bind:__l="__l"></mp-html></view></view>

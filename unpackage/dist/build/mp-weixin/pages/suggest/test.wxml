@@ -1,0 +1,1 @@
+<view class="container data-v-1e63a181"><button data-event-opts="{{[['tap',[['getUserLocation',['$event']]]]]}}" bindtap="__e" class="data-v-1e63a181">获取当前位置</button><block wx:if="{{locationName}}"><view class="location-info data-v-1e63a181">{{'当前位置：'+locationName+''}}</view></block></view>

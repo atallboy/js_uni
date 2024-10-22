@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["pages-suggest-test1"],{"0e9e":function(e,t,n){"use strict";n.r(t);var s=n("828b"),i=Object(s["a"])({},(function(){var e=this.$createElement,t=this._self._c||e;return t("v-uni-view",[this._v("测试")])}),[],!1,null,null,null,!1,void 0,void 0);t["default"]=i.exports}}]);

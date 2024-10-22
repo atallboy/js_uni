@@ -1,0 +1,16 @@
+
+.wrap{padding: 10px;}
+.item{background-color: #fff;border-radius: 6px;padding: 10px;margin-bottom: 10px;}
+.info{display: flex;}
+.content{display: flex;flex: 1; margin-bottom: 10px;}
+.status{display: flex;width: 60px;justify-content: flex-end;}
+.pic-wrap{display: flex;}
+.pic-item{display: flex;width: 80px;height: 80px;margin: 0 10px 10px 0;}
+.pic-item image{width: 80px;height: 80px;}
+.time{color: #666;font-size: 13px;margin-bottom: 10px;}
+.deal{padding: 10px 0;}
+.deal-msg{color: royalblue;}
+.deal-time{color: #666;font-size: 13px;margin-top: 10px;}
+
+
+

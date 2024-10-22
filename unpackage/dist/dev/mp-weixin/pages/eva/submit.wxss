@@ -1,0 +1,75 @@
+
+page {
+	background-color: #fff;
+}
+.yj-container {
+	padding: 10px;
+}
+.uni-rate {
+	justify-content: center;
+}
+.form-textarea {
+	padding: 10px;
+	padding: 10px;
+	border-radius: 4px;
+	background-color: rgb(242, 247, 248);
+}
+.form-textarea textarea {
+	min-height: 100px;
+	width: 100%;
+}
+.form-textarea .form-textarea-placeholder {
+	font-size: 13px;
+}
+.btn-container {
+	padding: 50px 10px 0;
+}
+.btn-item {
+	border-radius: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 42px;
+	font-weight: 600;
+}
+.btn-confirm {
+	background-color: var(--mainColor);
+	color: #fff;
+	margin-bottom: 30px;
+}
+.btn-cancel {
+	background-color: rgb(242, 247, 248);
+	color: #444;
+}
+.yj-footer {
+	margin-top: 50px;
+	display: flex;
+	color: #bbb;
+	padding: 10px 30px 50px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.yj-footer-title {
+	display: flex;
+	align-items: center;
+	height: 30px;
+}
+.yj-footer-blk {
+	display: flex;
+	flex: 1;
+}
+.yj-footer-blk-line {
+	width: 50px;
+	height: 1px;
+	background-color: #f1f1f1;
+}
+.yj-footer-title-txt {
+	display: flex;
+	padding: 0 20px;
+}
+.yj-footer-desc {
+	font-size: 11px;
+	margin-top: 10px;
+}
+

@@ -1,0 +1,1 @@
+<view><yj-coupon vue-id="0d7dd4fa-1" list="{{list}}" data-event-opts="{{[['^selCoupon',[['selCoupon',['$event']]]]]}}" bind:selCoupon="__e" bind:__l="__l"></yj-coupon></view>

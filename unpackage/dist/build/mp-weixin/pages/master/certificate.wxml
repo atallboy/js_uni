@@ -1,0 +1,1 @@
+<view><view style="display:flex;align-items:center;padding:10px;font-weight:700;"><image style="width:15px;height:15px;margin-right:6px;" src="../../static/images/certificate.png"></image>技师职业资格证书</view><view style="padding:10px;"><image style="width:100%;" src="{{detail.certificate}}"></image></view></view>

@@ -1,0 +1,94 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/balance/recharge",
+    "pages/order/submit",
+    "pages/master/qrcode",
+    "pages/master/console",
+    "pages/settle/index",
+    "pages/master/edit",
+    "pages/master/certificate",
+    "pages/address/edit",
+    "pages/eva/submit",
+    "pages/distribute/index",
+    "pages/agent/index",
+    "pages/balance/withdrawal",
+    "pages/balance/record",
+    "pages/coupon/my",
+    "pages/coupon/exchange",
+    "pages/master/list",
+    "pages/mine/index",
+    "pages/order/list",
+    "pages/item/collect",
+    "pages/item/detail",
+    "pages/address/list",
+    "pages/balance/withdrawal_record",
+    "pages/suggest/submit",
+    "pages/suggest/record",
+    "pages/master/register",
+    "pages/master/collect",
+    "pages/master/order",
+    "pages/order/detail",
+    "pages/agent/edit",
+    "pages/master/eva",
+    "pages/agent/order",
+    "pages/master/daren",
+    "pages/master/zhubo",
+    "pages/article/detail",
+    "pages/service/index",
+    "pages/mch/list",
+    "pages/mch/detail",
+    "pages/suggest/test",
+    "pages/suggest/test1"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#05C46D",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/nav-index.png",
+        "selectedIconPath": "static/images/nav-inex-selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/master/list",
+        "iconPath": "static/images/nav-jishi.png",
+        "selectedIconPath": "static/images/nav-jishi-selected.png",
+        "text": "理疗师"
+      },
+      {
+        "pagePath": "pages/order/list",
+        "iconPath": "static/images/nav-order.png",
+        "selectedIconPath": "static/images/nav-order-selected.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "iconPath": "static/images/nav-mine.png",
+        "selectedIconPath": "static/images/nav-mine-selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "快速填写发货地址"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "usingComponents": {}
+}

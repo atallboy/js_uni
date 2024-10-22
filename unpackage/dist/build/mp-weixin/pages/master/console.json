@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "管理中心",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "yj-nav-bar": "/components/yj-nav-bar/yj-nav-bar",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons"
+  }
+}

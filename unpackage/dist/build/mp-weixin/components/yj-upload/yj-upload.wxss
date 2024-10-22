@@ -1,0 +1,1 @@
+.pic-list{display:flex;flex-wrap:wrap}.pic-item{display:flex;margin:0 8px 8px 0;position:relative}.pic-item image{width:60px;height:60px}.delete-icon{position:absolute;right:0;top:0;width:25px;height:25px;z-index:99;text-align:center}

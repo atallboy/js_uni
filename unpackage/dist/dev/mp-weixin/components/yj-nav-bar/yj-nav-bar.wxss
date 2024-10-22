@@ -1,0 +1,17 @@
+
+.status_bar {
+        height: 25px;
+        width: 100%;
+		background-color: aquamarine;
+}
+.yj-nav-bar{background-color: #fff;position: fixed;left: 0;right: 0;top: 0;z-index: 99;}
+.yj-nav-bar-status{}
+.yj-nav-bar-wrap{display: flex;padding: 0 10px;}
+.yj-nav-bar-left{display: flex;width: 90px;align-items: center;}
+.yj-nav-left-icon{}
+.yj-nav-bar-title{display: flex;flex: 1;align-items: center;justify-content: center;font-size: 16px;}
+.yj-nav-bar-right{display: flex;width: 90px;align-items: center;justify-content: center;}
+
+	
+	
+

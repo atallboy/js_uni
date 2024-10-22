@@ -1,0 +1,13 @@
+
+page{background-color: #F2F3F4;}
+.user-info-container{position: relative;background-image: linear-gradient(var(--mainColor),var(--mainColor));height: 60px;}
+.user-info-wrap{position: absolute;top: 10px;left: 10px;right: 10px;padding: 0 10px; background-color: #fff;display: flex;height: 60px;align-items: center;border-radius: 4px;}
+.user-pic{display: flex;width: 60px;}
+.user-pic image{width: 40px;height: 40px;}
+.user-name{display: flex;flex: 1;color: #214260;font-size: 16px;align-items: center;height: 60px;font-weight: 600;}
+.user-level-icon{width: 26px;height: 12px;margin-left: 5px;}
+.user-car-number{display: flex;justify-content: flex-end; color: #214260;font-size: 13px;}
+.user-car-number image{width: 20px;height: 20px;}
+
+
+

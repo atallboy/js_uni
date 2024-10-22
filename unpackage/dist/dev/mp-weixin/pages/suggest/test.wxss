@@ -1,0 +1,15 @@
+
+.container.data-v-12ea3294 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+button.data-v-12ea3294 {
+	margin-bottom: 20px;
+}
+.location-info.data-v-12ea3294 {
+	margin-top: 20px;
+}
+

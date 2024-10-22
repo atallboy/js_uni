@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/yj-nav-bar/yj-nav-bar"],{"097a":function(t,n,e){"use strict";e.d(n,"b",(function(){return u})),e.d(n,"c",(function(){return i})),e.d(n,"a",(function(){return a}));var a={uniIcons:function(){return Promise.all([e.e("common/vendor"),e.e("uni_modules/uni-icons/components/uni-icons/uni-icons")]).then(e.bind(null,"5bd9"))}},u=function(){var t=this.$createElement;this._self._c},i=[]},"14af":function(t,n,e){},2139:function(t,n,e){"use strict";e.r(n);var a=e("99a0"),u=e.n(a);for(var i in a)["default"].indexOf(i)<0&&function(t){e.d(n,t,(function(){return a[t]}))}(i);n["default"]=u.a},"3a32":function(t,n,e){"use strict";var a=e("14af"),u=e.n(a);u.a},4426:function(t,n,e){"use strict";e.r(n);var a=e("097a"),u=e("2139");for(var i in u)["default"].indexOf(i)<0&&function(t){e.d(n,t,(function(){return u[t]}))}(i);e("3a32");var r=e("828b"),o=Object(r["a"])(u["default"],a["b"],a["c"],!1,null,null,null,!1,a["a"],void 0);n["default"]=o.exports},"99a0":function(t,n,e){"use strict";(function(t){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var e={props:{title:{type:String,default:""},titleStyle:{type:String,default:""},navBarStyle:{type:String,default:""},leftBtn:{type:String,default:"back"},leftIconColor:{type:String,default:"#fff"},toUrl:{type:String,default:""},toUrlType:{type:Number,default:1}},data:function(){return{style:""}},created:function(){this.style=this.navBarStyle},methods:{toWhere:function(){1==this.toUrlType?t.navigateTo({url:this.toUrl}):2==this.toUrlType||4==this.toUrlType&&t.navigateBack()}}};n.default=e}).call(this,e("df3c")["default"])}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/yj-nav-bar/yj-nav-bar-create-component',
+    {
+        'components/yj-nav-bar/yj-nav-bar-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('df3c')['createComponent'](__webpack_require__("4426"))
+        })
+    },
+    [['components/yj-nav-bar/yj-nav-bar-create-component']]
+]);
